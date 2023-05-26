@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+a{
+    text-decoration:none;
+
+}
+.text-justify{
+    text-align:justify;
+}
+header .tophead{
+    height: 28px;
+    background-color: #34313a;
+    
+
+}
+
+header .tophead  .leftgroup ul li a{
+    margin: 0px 20px;
+    color: #fff;
+    font-size: 13px;
+
+
+
+}
+    
+header .tophead .leftgroup ul li a.active{
+     width: auto;
+     height: auto;
+     color: #b00000;
+     font-weight: 700;
+     line-height: 28px;
+     text-align: center;
+     position: relative;
+     background-color: #fff;
+     display:inline-block;
+}
+
+header .tophead .leftgroup ul li a.active:hover{
+    text-decoration: underline;
+}
+
+header .tophead .leftgroup ul li a.active ::before{
+  content: "";
+  top:0px;
+  width: 0;
+  height: 0;
+  right:100;
+  position: absolute;
+  border-right: 15px solid#fff;
+  border-bottom: 0px solid#fff;
+  border-top:28px solid transparent;
+}
+header .tophead  .rightgroup ul li{
+    margin: 0px 15px;
+
+
+    }
+    header .tophead .rightgroup ul li a{
+        color: #fff;
+        font-size: 13px;
+        
+    }
+    select{
+        background-color: black;
+        color: #fff;
+        font-size: 13px;
+        background-color: none;
+        border: none;
+    }
+    .midhead{
+        margin: 20px 0px 10px 10px;
+        font-size: 14px;
+    }
+    button{
+        background-color: rgba(176, 0, 0, 0.58);
+    }
+
+   .carousel-inner .carousel-item{
+      height: 500px;
+
+       
+   }
+   @keyframes zoomin{
+    from{
+        transform:scale(1);
+    }
+
+
+        to{
+           transform: scale(1.3);
+        }
+    }
+    .carousel-inner .carousel-item img{
+        animation: zoomin 20s infinite;
+
+        }
+        .carousel-dark .carousel-indicators [data-bs-target]{
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+        }
+        .carousel-inner .carousel-item .carousel-caption{
+            bottom: 5.50rem;
+        }
+        .carousel-indicators{
+            bottom: 3.5rem;
+        }
+
+        /* International Removal Section Start */
+        .interbox{
+            min-height: 200px;
+            margin-top: -50px;
+            z-index: 9;
+            background: #fff;
+
+        }
+        .interbox  h1, h4{
+            color: #b00000;
+        }
+        .interbox p{
+            font-size: 17px;
+        }
+        .interbox a{
+            color: #b00000;
+        }
+        /* International Removal Section End */
+        .for img{
+            width: 500px;
+            height: 250px;
+            
+        }
+        /* media screen start */
+        @media  only screen and (max-width:1023px){
+           header .tophead{
+            display: none;
+           } 
+        }
+
+
+        /* media screen end */
+        .see{
+            width:200px;
+            border: 2px solid maroon;
+            height:40px ;
+            background-color: #fff;
+        }
+
+        .us{
+            width:200px ;
+            height:40px ;
+            border: 2px solid maroon;
+            background-color:#b00000;
+            color: #fff;
+
+            
+        }
+        .uss{
+            width:150px ;
+            height:40px ;
+            border: 2px solid maroon;
+            background-color:#b00000;
+            color:#ffff;
+            
+        }
+        .abc{
+            color: #fff;
+            background-color: #34313a;
+        }
+        .dom{
+            color:#fff ;
+        }
+
+        .our{
+            background-color: #34313a;
+
+            
+
+        }
+        @media only screen and {
+            
+        }
+        
+        
+        
+
+
+
+
