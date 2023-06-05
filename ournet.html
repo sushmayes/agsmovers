@@ -1,110 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assest/css/style.css./">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assest/css/style.css">
+
 </head>
+
 <body>
-    <header>
-        <div class="tophead">
-          <div class="container">
-            <div class="row">
-              <div class="d-flex justify-content-between">
-                <div class="leftgroup">
-                  <ul class="list-unstyled d-flex">
-                    <li><a href="#">AGS Group</a></li>
-                    <li><a href="#">Relocation</a></li>
-                    <li><a href="#">Rocords Managment</a></li>
-                    <li><a href="#" class="active">WorldWide Movers</a></li>
-                  </ul>
-                </div>
-                <div class="rightgroup">
-                  <ul class="list-unstyled d-flex">
-                    <li><a href=""><i class="fa-solid fa-handshake"></i>Careers</a></li>
-                    <li><a href=""><i class="fa-regular fa-credit-card"></i>Payment</a></li>
-                    <li><a href=""><i class="fa-solid fa-user"></i>Log in</a></li>
-                    <li>
-                      <select name="country" id="country">
-                        <option value="English"><img src="assest/img/en.png" alt="en">English
-                        </option>
-                        <option value="india"><img src="/assest/img/pl.png">India</option>
-                        <option value="USA">USA</option>
-                        <option value="Noida">Noida</option>
-                        <option value="Arunachal">Arunachal pardesh</option>
-                      </select>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+  <header>
+    <div class="tophead">
+      <div class="container">
+        <div class="row">
+          <div class="d-flex justify-content-between">
+            <div class="leftgroup">
+              <ul class="list-unstyled d-flex">
+                <li><a href="#">AGS Group</a></li>
+                <li><a href="#">Relocation</a></li>
+                <li><a href="#">Rocords Managment</a></li>
+                <li><a href="#" class="active">WorldWide Movers</a></li>
+              </ul>
+            </div>
+            <div class="rightgroup">
+              <ul class="list-unstyled d-flex">
+                <li><a href=""><i class="fa-solid fa-handshake"></i>Careers</a></li>
+                <li><a href=""><i class="fa-regular fa-credit-card"></i>Payment</a></li>
+                <li><a href=""><i class="fa-solid fa-user"></i>Log in</a></li>
+                <li>
+                  <select name="country" id="country">
+                    <option value="English"><img src="assest/img/en.png" alt="en">English
+                    </option>
+                    <option value="india"><img src="/assest/img/pl.png">India</option>
+                    <option value="USA">USA</option>
+                    <option value="Noida">Noida</option>
+                    <option value="Arunachal">Arunachal pardesh</option>
+                  </select>
+                </li>
+              </ul>
             </div>
           </div>
-          </div>
-          <!--NAV SECTION START-->
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-              <a class="navbar-brand" href="index.html"><img src=" ./assest/img/removals_logo.png"></a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+        </div>
+      </div>
+    </div>
+    <!--NAV SECTION START-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src=" ./assest/img/removals_logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><b>HOME</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CHOOSING AGE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">OUR SERVICE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ournet.html">OUR NETWORK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">NEWS</a>
+            </li>
+            <li class="nav-item dropdown"></li>
+            <a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">CONTACT</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">General Enquey</a></li>
+              <li><a class="dropdown-item" href="#">Your Setisfacatin</a></li>
+            </ul>
+            </li>
+            <form class="d-flex" role="search">
+              <button class="btn btn-danger first" type="button"><a href="#" class="text-white"> <i
+                    class="fa-solid fa-pen-to-square"></i> GET A
+                  QUOTE</a></button>
+              </li>
+            </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div>
+    <img src="./assest/img/Network-pano-full-partner-2019-en.jpg">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 interbox d-block mx-auto text-center shadaw">
+        <h1 class="pt-5 pb-2">BENEFIT FROM THE UNIQUE AGS NETWORK
+        </h1>
+        <p class="fw-bold mx-5">For the past 49 years, AGS has not stopped growing and has expanded globally year after
+          year, strengthening its presence throughout the world in Africa, Europe, Asia, the French overseas territories
+          and the West Indies. Covering 146 locations in 97 countries, AGS has one of the largest networks in the
+          international removals industry.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col-md-10 interbox d-block mx-auto text-left shadaw">
+        <h5 class="pt-5 pb-2 text-danger fw-bold border-bottom">AFRIKA</h5>
+        <p class="text-left">Click on our locations below for more details.</p>
+      </div>
+      <div class="row">
+      <div class="col-md-6 col-lg-2">sushma</div>
+      <div class="col-md-6 col-lg-2">sushma</div>
+      <div class="col-md-6 col-lg-2">sushma</div>
+      <div class="col-md-6 col-lg-2">sushma</div>
+      <div class="col-md-6 col-lg-2">sushma</div>
+      <div class="col-md-6 col-lg-2">sushma</div>
+</div>
       
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#"><b>HOME</b></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">CHOOSING AGE</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">OUR SERVICE</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="">OUR NETWORK</a>
-                     </li>
-                     <li class="nav-item">
-                     <a class="nav-link" href="#">NEWS</a>
-                     </li>
-                     <li class="nav-item dropdown">
 
-                        <a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown"
-                          aria-expanded="false">CONTACT</a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">General Enquey</a></li>
-                          <li><a class="dropdown-item" href="#">Your Setisfacatin</a></li>
-                        </ul>
-                    </li>
-                    <form class="d-flex" role="search">
-                        <button class="btn btn-danger first" type="button"><a href="#" class="text-white"> <i
-                              class="fa-solid fa-pen-to-square"></i> GET A
-                            QUOTE</a></button>
-                        </li>
-                      </form>
-                    </div>
-                  </div>
-                </nav>
-              </header>
-              <div class="container">
-                <div class="row">
-                <div class="col">
-                   <img src="./assest/img/ags-global-compact-logo-en.png" >
-                    </div>
-                </div>
-              </div>
-            
-            <!--NAV SECTION END-->
+  <!--NAV SECTION END-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./assest/js/script.js"></script>
 
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
-
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-          
-          
-                               
-    
 </body>
+
 </html>
