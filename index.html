@@ -11,9 +11,8 @@
   <link rel="stylesheet" href="assest/css/style.css">
   
 </head>
-
 <body>
-  <header>
+  <header class="sticky-top">
     <div class="tophead">
       <div class="container">
         <div class="row">
@@ -31,14 +30,14 @@
                 <li><a href=""><i class="fa-solid fa-handshake"></i>Careers</a></li>
                 <li><a href=""><i class="fa-regular fa-credit-card"></i>Payment</a></li>
                 <li><a href=""><i class="fa-solid fa-user"></i>Log in</a></li>
-                <li>
-                  <select name="country" id="country">
-                  <option value="English"><img src="/assest/img/en.png" alt="en">English
-                    </option>
-                    <option value="india"><img src="/assest/img/pl.png">India</option>
-                    <option value="USA">USA</option>
-                    <option value="Noida">Noida</option>
-                    <option value="Arunachal">Arunachal pardesh</option>
+                <li class="py-1">
+                  <a href="#" class="nav-link text-light dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <img src="/assest/img/en.png" alt="en"> English</a>
+                      <ul class="dropdown-menu list-unstyled bg-dark text-light">
+                        <li><img src="/assest/img/pl.png"> Francais</li>
+                        <li><img src="/assest/img/fr.png"> Deutsch</li>
+                        <li><img src="assest/img/de.png"> Dutch</li>
+                        <li><img src="assest/img/de.png"> Dutch</li>
+                      </ul>                 
                   </select>
                 </li>
               </ul>
@@ -48,21 +47,21 @@
       </div>
     </div>
     <!--NAV SECTION START-->
+    <div class="sticky-top">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="index.html"><img src=" ./assest/img/removals_logo.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item active">
               <a class="nav-link" href="#"><b>HOME</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CHOOSING AGE</a>
+             <a class="nav-link" href="#">CHOOSING AGE</a>
               <div class="mega-menu py-5">
                 <div class="container">
                   <div class="row">
@@ -88,7 +87,6 @@
                             <p>Quality & <br> accreditationss</p>
                             <img src="./assest/img/1-move-1-tree-ags.png">
                             <p>Planete Urgence</p>
-
                             </div>
                             <div class="col-md-6 col-lg-3 abc">
                               <img src="./assest/img/excellence-of-our-staff-ags.png">
@@ -105,9 +103,9 @@
                          <p>Training <br> Our people <br> Oue environment <br> Health and safety <br> Carbon Footprint</p>
                         </div>
                       </div>
-                      </div>
-                      </div>
-                      </div>
+                     </div>
+                     </div>
+                    </div>
                     </div>
                    </li>
             <li class="nav-item">
@@ -192,15 +190,18 @@
             <li class="nav-item">
               <a class="nav-link" href="news.html">NEWS</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">CONTACT</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">General Enquey</a></li>
-                <li><a class="dropdown-item" href="#">Your Setisfacatin</a> </li>
+            <div class="main">
+              <uL class="list-unstyled">
+            <li class="nav-item">
+              <a class="nav-link text-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> CONTACT US</a>
+              <ul class="dropdown-menu list-unstyled bg-dark text-light" style="width:230px; padding-left:2%; margin-left:67%; margin-top:0%;">
+                <li class="pb-3"><a href="#" class="text-white">General enquiries</a></li>
+                <li class=""><a href="#" class="text-white gen">Your satisfaction</a></li>
               </ul>
             </li>
-          </ul>
+           </ul>
+          </div>
+        </div>
           <form class="d-flex" role="search">
             <button class="btn btn-danger first" type="button"><a href="#" class="text-white"> <i class="fa-solid fa-pen-to-square"></i> GET A
               QUOTE</a></button>
@@ -255,7 +256,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-10 interbox d-block mx-auto text-center shadaw">
-        <h1 class="pt-5 pb-2 fw-bold">INTERNATIONAL REMOVALS & STORAGE </h1>
+        <h1 class="pt-xl-5 pt-lg-3 pb-2 fw-bold">INTERNATIONAL REMOVALS & STORAGE </h1>
         <p class="fw-bold mx-5">“Pioneer in the mobility industry, AGS International Movers, is now one of its global
           leaders, as a result of<br>
           the innovative vision of its board for the
@@ -276,7 +277,7 @@
           <div class="col-lg-6">
             <div class="card pe-lg-3 border-0">
               <div class="imgbox">
-                <img src="./assest/img/ags-movers-individual-move-1.jpg" alt="movers1" class="img-fluid">
+                <img src="./assest/img/ags-movers-individual-move-1.jpg" alt="movers1" class="img-fluid individual">
                 <p class="text-justify pt-2"><b>Let us help you prepare for a smooth and successful move.</b>Whether you
                   are moving from
                   Africa to Asia or from England to the USA, we accompany you from departure to arrival. Our global
@@ -302,7 +303,7 @@
                   and businesses. </p>
                 <button class="see" type="button">SEE OUR SOLUTIONS
                 </button>
-                <button class="uss ms-3" type="button">CONTACT US
+                <button class="us ms-3" type="button">CONTACT US
                 </button>
               </div>
             </div>
@@ -356,14 +357,14 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-10 d-lg d-block mx-auto shadaw">
+      <div class="col-lg-10 d-lg-block mx-auto shadaw">
         <div class="row">
           <h2 class="pt-5 text-danger text-center fw-bold">Client satisfaction is our primary focus </h2>
-          <p class="text-center  fs-5 mx-lg-5 fw-6">We assist and accompany more than 106000 families with their
+          <p class="text-center  fs-5 mx-lg-5 fw-6 mb-5 text-justify">We assist and accompany more than 106000 families with their
             relocation every year. We pride ourselves in
             our ability to safely and successfully move any item in your home. </p>
-          <div class="d-flex">
-            <div class="col-lg-5 d-flex pt-5">
+          <div class="row">
+            <div class="col-xl-5  pt-5 d-flex">
               <div><img src="./assest/img/quality-certificate-icon.png" alt="icon" width="130px"></div>
               <div class="ps-4">
                 <h4 class="fw-bold">Quality & Satisfaction</h4>
@@ -374,8 +375,8 @@
                   complete satisfaction, by continuing to help you even when the move is finished.</P>
               </div>
             </div>
-            <div class="col-2"></div>
-            <div class="col-lg-5 d-flex pt-5">
+            <div class="col-xl-2"></div>
+            <div class=" col-xl-5 d-flex pt-5">
               <div><img src="./assest/img/security-icon.png" alt="icon" width="130px"></div>
               <div class="ps-4">
                 <h4 class="fw-bold">Security & Reliability</h4>
@@ -386,8 +387,8 @@
               </div>
             </div>
           </div>
-          <div class="d-flex">
-            <div class="col-lg-5 d-flex pt-5">
+          <div class="row">
+            <div class=" col-xl-5 d-flex pt-5">
               <div><img src="./assest/img/quality-satisfaction-icon.png" alt="icon" width="130px"></div>
               <div class="ps-4">
                 <h4 class="fw-bold">Flexibility & Adv </h4>
@@ -400,8 +401,8 @@
                   options available and offer high quality services at competitive prices. </p>
               </div>
             </div>
-            <div class="col-2"></div>
-            <div class="col-lg-5 d-flex pt-5">
+            <div class="col-xl-2"></div>
+            <div class="col-xl-5 d-flex pt-5">
               <div><img src="./assest/img/cutting-edge.png" alt="icon" width="130px"></div>
               <div class="ps-4">
                 <h4 class="fw-bold">Cutting-edge solutions </h4>
@@ -424,21 +425,21 @@
         <div class="col-lg-10 d-lg-block mx-auto">
           <div class="row">
             <h2 class="text-center text-danger pt-3 pb-5">We move people who move the world</h2>
-            <div class="row">
-              <div class="col-md-3 mx-auto">
-                <h1> 257756</h1>
-                <p class="fw-bold">Secure storage</p>
+            <div class="row text-center">
+              <div class="col-md-3 mx-auto text-justify text-center">
+                <h1 style="font-weight: 700;"> 257756</h1>
+                <p class="">Secure storage</p>
               </div>
               <div class="col-md-3">
-                <h1>106000 </h1>
+                <h1 class="" style="font-weight:700;">106000 </h1>
                 <p class="fw-bold">Families moved annually </p>
               </div>
               <div class="col-md-3">
-                <h1>2000</h1>
-                <p class="fw-bold">Employees worldwide</p>
+                <h1 style="font-weight: 700;">2000</h1>
+                <p class="">Employees worldwide</p>
               </div>
               <div class="col-md-3">
-                <h1>49</h1>
+                <h1 style="font-weight: 700;">49</h1>
                 <p class="fw-bold">Years' experience</p>
               </div>
             </div>
@@ -447,8 +448,7 @@
         </div>
       </div>
       <div class="text-center">
-        <button class="us" type="button"> GET A FREE QOUTE <a href="#"><b>
-          <i class="fa-thin fa-greater-than"></b></a></button>
+        <button class="us" type="button"> GET A FREE QOUTE <a href="#"></a></button>
         <div class="pb-5"></div>
       </div>
     </div>
@@ -493,13 +493,13 @@
   <footer>
     <div class="footer mt-5 pt-5 pb-5">
       <div class="container-fluid">
-        <div class="row">
+        <div class="row foot">
           <div class="col-lg-10 d-lg-block mx-auto">
-            <div class="row foot">
+            <div class="row">
               <div class="col-md-6 col-lg-3">
                 <img src="./assest/img/movers-footer-logo.png">
-                <a><p><i class="fa-solid fa-comment text-white"></i>Contact us</a></p>
-                <p><i class="fa-solid fa-handshake text-white"></i> Careers</p>
+                <p><a href=""><i class="fa-solid fa-comment text-white"></i>Contact us</a></p>
+                <p><a href=""><i class="fa-solid fa-handshake text-white"></i> Careers </a></p>
                 <buttton class="btn btn-danger fw-bold mb-3"><i class="fa-regular fa-pen-to-square"></i> GET A QUOTE
                 </buttton>
                 <p><i class="fa-brands fa-facebook text-white"></i>
@@ -541,7 +541,6 @@
               </div>
             </div>
           </div>
-          sushma
         </div>
       </div>
     </div>
@@ -549,16 +548,8 @@
     </div>
   </footer>
 
-
   <!--- footer section End-->
-
-
-
-
-
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
  <script src="./assest/js/script.js"></script>
 

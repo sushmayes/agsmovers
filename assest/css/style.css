@@ -12,8 +12,7 @@ a{
 }
 header .tophead{
     height: 28px;
-    background-color: #34313a;
-    
+    background-color: #34313a;   
 
 }
 .mega-menu{
@@ -101,18 +100,10 @@ header .tophead  .rightgroup ul li{
       height: 500px;
        
    }
-   @keyframes zoomin{
-    from{
-        transform:scale(1);
-    }
-
-
-        to{
-           transform: scale(1.3);
-        }
-    }
     .carousel-inner .carousel-item img{
         animation: zoomin 10s infinite;
+        filter: brightness();
+        overflow: hidden;
     }
         
         .carousel-dark .carousel-indicators [data-bs-target]{
@@ -122,9 +113,11 @@ header .tophead  .rightgroup ul li{
         }
         .carousel-inner .carousel-item .carousel-caption{
             bottom: 5.50rem;
+            color: #fff;
         }
         .carousel-indicators{
             bottom: 3.5rem;
+            color: #fff;
         }
 
         /* International Removal Section Start */
@@ -154,41 +147,21 @@ header .tophead  .rightgroup ul li{
             background-color: #b00000;
             color:#fff;
         }
-        /* International Removal Section End */
-
-            
+        /* International Removal Section End */  
     
-        /* media screen start */
-        @media  only screen and (max-width:1023px){
-           header .tophead{
-            display: none;
-           } 
-        }
-
-        /* media screen end */
         .see{
             width:200px;
             border: 2px solid maroon;
             height:40px ;
             background-color: #fff;
         }
-        
         .us{
             width:200px ;
             height:40px ;
             border: 2px solid maroon;
             background-color:#b00000;
-            color: #fff;
-            
+            color: #fff;   
         }
-        .uss{
-            width:150px ;
-            height:40px ;
-            border: 2px solid maroon;
-            background-color:#b00000;
-            color:#ffff;
-        }
-
         .our{
             background-color: #34313a;
         }
@@ -203,6 +176,17 @@ header .tophead  .rightgroup ul li{
 
         transform : skew(20deg);
        }
+       @keyframes zoomin{
+        from{
+            transform:scale(1);
+        }
+    
+    
+            to{
+               transform: scale(1.3);
+            }
+        }
+
 
     @keyframes zoomin{
      from{
@@ -212,23 +196,21 @@ header .tophead  .rightgroup ul li{
  
          to{
 
-            transform: scale(1.3);
+            transform: scale(1.2);
          }
         }
             .imgbox img:hover{
                 animation: zoomin 5s infinite;
-            
+                overflow: hidden;
             }
             .imgbox{
-                overflow: hidden;
+                overflow:hidden;
             }
 
     .col-lg-2 img:hover{
       transform: scale(1.1);
       transition: 0.3s all;
-  
-    }
-    
+   }
     .may{
         width:100%;
         height: 100%;
@@ -237,12 +219,46 @@ header .tophead  .rightgroup ul li{
         padding: 10px;
         
     }
+    .individual .heading h3::after{
+        content:"";
+        top:0px;
+        width:0px;
+        height: 0;
+        left: 0px;
+        position: absolute;
+        border-top: 40px solid #d10202;
+        border-right: 15px solid transparent;
+        border-bottom: 0px solid transparent;
+
+    }
+    .individual .heading h3::before{
+        content:"";
+        top:40px;
+        width:0px;
+        height: 0;
+        left: 0px;
+        right:100;
+        position: absolute;
+        border-top: 22px solid #d10202;
+        border-left: 17px solid transparent;
+        border-bottom: 0px solid transparent;
+    }
+    
+ /* media screen start */
+ @media only screen and(max-width:332px){
+ 
+ }
+ @media only screen and(max-width:992px){
+    
+ }
 
 
+ @media  only screen and (max-width:1023px){
+    header .tophead{
+     display: none;
+    } 
+}
+ /* media screen end */
 
     
-    
-
-        
-        
         
